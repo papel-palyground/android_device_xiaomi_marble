@@ -51,7 +51,6 @@ endif
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureResMarble \
     FrameworksResMarble \
     NfcResMarble \
     SettingsProviderResMarble \
