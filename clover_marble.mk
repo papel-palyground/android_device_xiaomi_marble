@@ -10,11 +10,13 @@ $(call inherit-product, device/xiaomi/marble/device.mk)
 # Inherit from common lineage configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_marble
+PRODUCT_NAME := marble_marble
 PRODUCT_DEVICE := marble
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 23049PCD8G
+
+CLOVER_MAINTAINER := Pavelc4
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="marble_global-user 15 AQ3A.250226.002 OS3.0.3.0.VMRMIXM release-keys" \
